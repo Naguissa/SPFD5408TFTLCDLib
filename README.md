@@ -12,7 +12,7 @@ Update to old Adafruit_TFTLCD library for use on new IDE and to support some wei
  * Rename to TFTLCDLib.zip
  * Install library on Arduino
 
- * Also requires the Adafruit_GFX library for Arduino. https://github.com/adafruit/Adafruit-GFX-Library
+ * Also includes the Adafruit_GFX library for Arduino, so no need to install it for this library. https://github.com/adafruit/Adafruit-GFX-Library
 
 
 ## Examples ##
