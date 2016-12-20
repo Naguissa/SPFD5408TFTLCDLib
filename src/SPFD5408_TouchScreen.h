@@ -4,7 +4,22 @@
 // Code under MIT License
 #ifndef _SPFD5408_TOUCHSCREEN_H_
 #define _SPFD5408_TOUCHSCREEN_H_
+
 #include <stdint.h>
+
+#ifdef _VARIANT_ARDUINO_STM32_
+#include "board.cpp" // PIN_MAP
+#include "io.h" // PIN_MAP
+#endif
+
+
+#include "pins_arduino.h"
+#include "wiring_private.h"
+#ifdef __AVR
+#include <avr/pgmspace.h>
+#elif defined(ESP8266)
+#include <pgmspace.h>
+#endif
 
 class TSPoint {
 public:

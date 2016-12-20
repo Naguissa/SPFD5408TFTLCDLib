@@ -10,14 +10,16 @@
 #define pgm_read_byte(addr) (*(const unsigned char *)(addr))
 #define pgm_read_word(addr) (*(const unsigned short *)(addr))
 #endif
+
 #ifdef __AVR__
 #include <avr/pgmspace.h>
 #endif
+
+
 #include "pins_arduino.h"
 #include "wiring_private.h"
 #include "SPFD5408TFTLCDLib.h"
 #include "pin_magic.h"
-
 //#define TFTWIDTH   320
 //#define TFTHEIGHT  480
 

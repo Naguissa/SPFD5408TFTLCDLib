@@ -6,11 +6,7 @@
 #ifndef _SPFD5408TFTLCDLib_H_
 #define _SPFD5408TFTLCDLib_H_
 
-#if ARDUINO >= 100
 #include "Arduino.h"
-#else
-#include "WProgram.h"
-#endif
 
 #include <SPFD5408_Adafruit_GFX.h>
 
