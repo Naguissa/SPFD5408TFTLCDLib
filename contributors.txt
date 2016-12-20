@@ -1,0 +1,3 @@
+Adafruit - https://github.com/adafruit - Original developer
+Naguissa - https://github.com/Naguissa - This adaptation
+João Clovis Lopes Filho  - https://github.com/JoaoLopesF - Original adaptation
