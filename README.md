@@ -1,4 +1,4 @@
-# Arduino IDE TFTLCDLib #
+# Arduino IDE SPFD5408TFTLCDLib #
 
 ## What is this repository for? ##
 
@@ -9,7 +9,7 @@ Update to old Adafruit_TFTLCD library for use on new IDE and to support some wei
 ## How do I get set up? ##
 
  * Get the ZIP.
- * Rename to TFTLCDLib.zip
+ * Rename to SPFD5408TFTLCDLib.zip
  * Install library on Arduino
 
  * Also includes the Adafruit_GFX library for Arduino, so no need to install it for this library. https://github.com/adafruit/Adafruit-GFX-Library
